@@ -27,6 +27,7 @@ import (
 	_ "github.com/netsampler/goflow2/v2/format/binary"
 	_ "github.com/netsampler/goflow2/v2/format/json"
 	_ "github.com/netsampler/goflow2/v2/format/text"
+	_ "github.com//thomsen887/goflow2/format/confluent"
 
 	// various transports
 	"github.com/netsampler/goflow2/v2/transport"
