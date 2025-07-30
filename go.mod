@@ -5,7 +5,7 @@ go 1.22
 toolchain go1.24.1
 
 require (
-	github.com/Shopify/sarama v1.38.1
+	github.com/IBM/sarama v1.38.1
 	github.com/libp2p/go-reuseport v0.4.0
 	github.com/oschwald/geoip2-golang v1.11.0
 	github.com/prometheus/client_golang v1.22.0
@@ -14,7 +14,7 @@ require (
 	google.golang.org/protobuf v1.36.6
 	gopkg.in/yaml.v3 v3.0.1
 )
-replace github.com/Shopify/sarama => github.com/IBM/sarama v1.45.2
+
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
